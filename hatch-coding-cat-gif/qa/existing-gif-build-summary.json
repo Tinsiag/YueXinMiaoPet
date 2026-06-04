@@ -1,0 +1,303 @@
+[
+  {
+    "state": "idle",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\idle.gif",
+    "source_frames": 31,
+    "sampled_indices": [
+      0,
+      3,
+      8,
+      13,
+      19,
+      25
+    ],
+    "expected_frames": 6,
+    "source_durations_ms": [
+      40,
+      80
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      0,
+      19,
+      118,
+      101
+    ],
+    "scale": 1.5,
+    "output_viewport": [
+      177,
+      123
+    ]
+  },
+  {
+    "state": "running-right",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\running-right.gif",
+    "source_frames": 51,
+    "sampled_indices": [
+      0,
+      6,
+      12,
+      19,
+      25,
+      31,
+      38,
+      44
+    ],
+    "expected_frames": 8,
+    "source_durations_ms": [
+      40
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      0,
+      23,
+      155,
+      155
+    ],
+    "scale": 1.1483870967741936,
+    "output_viewport": [
+      178,
+      152
+    ]
+  },
+  {
+    "state": "running-left",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\running-left.gif",
+    "source_frames": 18,
+    "sampled_indices": [
+      0,
+      2,
+      3,
+      5,
+      9,
+      11,
+      12,
+      14
+    ],
+    "expected_frames": 8,
+    "source_durations_ms": [
+      40,
+      80
+    ],
+    "background_removed": true,
+    "background_color": [
+      252,
+      252,
+      252
+    ],
+    "removed_background_pixels_minmax": [
+      14893,
+      15002
+    ],
+    "crop_box": [
+      4,
+      19,
+      146,
+      128
+    ],
+    "scale": 1.2535211267605635,
+    "output_viewport": [
+      178,
+      137
+    ]
+  },
+  {
+    "state": "waving",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\waving.gif",
+    "source_frames": 37,
+    "sampled_indices": [
+      0,
+      8,
+      18,
+      28
+    ],
+    "expected_frames": 4,
+    "source_durations_ms": [
+      40,
+      80
+    ],
+    "background_removed": true,
+    "background_color": [
+      253,
+      252,
+      252
+    ],
+    "removed_background_pixels_minmax": [
+      9947,
+      11318
+    ],
+    "crop_box": [
+      4,
+      26,
+      152,
+      155
+    ],
+    "scale": 1.2027027027027026,
+    "output_viewport": [
+      178,
+      155
+    ]
+  },
+  {
+    "state": "jumping",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\jumping.gif",
+    "source_frames": 28,
+    "sampled_indices": [
+      0,
+      5,
+      11,
+      16,
+      22
+    ],
+    "expected_frames": 5,
+    "source_durations_ms": [
+      40
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      19,
+      25,
+      125,
+      126
+    ],
+    "scale": 1.5,
+    "output_viewport": [
+      159,
+      152
+    ]
+  },
+  {
+    "state": "failed",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\failed.gif",
+    "source_frames": 33,
+    "sampled_indices": [
+      0,
+      4,
+      7,
+      11,
+      16,
+      21,
+      26,
+      29
+    ],
+    "expected_frames": 8,
+    "source_durations_ms": [
+      40,
+      80
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      0,
+      31,
+      155,
+      155
+    ],
+    "scale": 1.1483870967741936,
+    "output_viewport": [
+      178,
+      142
+    ]
+  },
+  {
+    "state": "waiting",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\waiting.gif",
+    "source_frames": 31,
+    "sampled_indices": [
+      0,
+      3,
+      8,
+      13,
+      19,
+      25
+    ],
+    "expected_frames": 6,
+    "source_durations_ms": [
+      40,
+      80
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      0,
+      19,
+      118,
+      101
+    ],
+    "scale": 1.5,
+    "output_viewport": [
+      177,
+      123
+    ]
+  },
+  {
+    "state": "running",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\running.gif",
+    "source_frames": 56,
+    "sampled_indices": [
+      0,
+      9,
+      18,
+      28,
+      37,
+      46
+    ],
+    "expected_frames": 6,
+    "source_durations_ms": [
+      40
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      0,
+      29,
+      155,
+      155
+    ],
+    "scale": 1.1483870967741936,
+    "output_viewport": [
+      178,
+      145
+    ]
+  },
+  {
+    "state": "review",
+    "source": "C:\\Users\\Tinsiag\\Desktop\\gif\\review.gif",
+    "source_frames": 13,
+    "sampled_indices": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "expected_frames": 6,
+    "source_durations_ms": [
+      40
+    ],
+    "background_removed": false,
+    "background_color": null,
+    "removed_background_pixels_minmax": null,
+    "crop_box": [
+      14,
+      23,
+      140,
+      155
+    ],
+    "scale": 1.4126984126984128,
+    "output_viewport": [
+      178,
+      186
+    ]
+  }
+]

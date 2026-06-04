@@ -1,0 +1,11 @@
+{
+    "ok":  true,
+    "run_dir":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif",
+    "spritesheet":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\final\\spritesheet.webp",
+    "validation":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\final\\validation.json",
+    "contact_sheet":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\qa\\contact-sheet.png",
+    "cutout_check":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\qa\\cutout-check.png",
+    "motion_filmstrip":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\qa\\motion-filmstrip.png",
+    "review":  "C:\\Users\\Tinsiag\\Desktop\\gif\\hatch-coding-cat-gif\\qa\\review.json",
+    "package":  "C:\\Users\\Tinsiag\\.codex\\pets\\coding-cat-gif"
+}

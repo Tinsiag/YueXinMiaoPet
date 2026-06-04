@@ -1,0 +1,22 @@
+{
+  "pet_id": "coding-cat-gif",
+  "display_name": "Coding Cat GIF",
+  "description": "A larger smooth coding cat pet assembled from the existing GIF animations.",
+  "source": "existing state GIFs",
+  "cell": {
+    "width": 192,
+    "height": 208
+  },
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ]
+  },
+  "notes": [
+    "Opaque white-background GIFs were cut out with border-connected background removal only.",
+    "Per-state frames were sampled by GIF timing and scaled to be a little larger inside each 192x208 cell."
+  ]
+}
