@@ -1,6 +1,6 @@
 # 月薪喵
 
-一只为 Codex 准备的动态猫猫终端宠物。这个仓库包含源 GIF、生成脚本、QA 预览文件，以及最终可安装到 Codex 的 `spritesheet.webp`。
+一只为 Codex 准备的动态猫猫终端宠物。这个仓库包含源 GIF、生成脚本、QA 预览文件，以及最终可安装到 Codex 的 `spritesheet.webp` 和 `pet.json`。
 
 ## 效果展示
 
@@ -36,9 +36,11 @@
 │   ├── pet_request.json               # 宠物元信息
 │   ├── final/
 │   │   ├── spritesheet.webp           # 安装到 Codex 的最终素材
+│   │   ├── pet.json                   # 安装到 Codex 的宠物配置
 │   │   └── validation.json            # 最终素材校验结果
 │   └── qa/                            # QA 预览、动效检查和报告
 └── docs/superpowers/                  # 设计与实施记录
+```
 
 ## 安装到 Codex
 
@@ -50,7 +52,10 @@ Codex 默认使用 `~/.codex` 作为用户数据目录；如果你设置了 `COD
 git clone https://github.com/Tinsiag/YueXinMiaoPet.git
 mkdir -p ~/.codex/pets/coding-cat-gif
 cp YueXinMiaoPet/hatch-coding-cat-gif/final/spritesheet.webp ~/.codex/pets/coding-cat-gif/spritesheet.webp
+cp YueXinMiaoPet/hatch-coding-cat-gif/final/pet.json ~/.codex/pets/coding-cat-gif/pet.json
 ```
+
+Windows 上的最终目录示例为 `C:\Users\admin\.codex\pets\coding-cat-gif`，目录内需要同时包含 `spritesheet.webp` 和 `pet.json` 两个文件。
 
 ### 手动安装
 
@@ -66,12 +71,14 @@ cp YueXinMiaoPet/hatch-coding-cat-gif/final/spritesheet.webp ~/.codex/pets/codin
 
    ```text
    hatch-coding-cat-gif/final/spritesheet.webp
+   hatch-coding-cat-gif/final/pet.json
    ```
 
    复制后的路径应为：
 
    ```text
    ~/.codex/pets/coding-cat-gif/spritesheet.webp
+   ~/.codex/pets/coding-cat-gif/pet.json
    ```
 
 5. 重新打开 Codex，选择或启用 `coding-cat-gif` 宠物。
@@ -92,6 +99,7 @@ python build_existing_gif_pet.py
 
 ```text
 hatch-coding-cat-gif/final/spritesheet.webp
+hatch-coding-cat-gif/final/pet.json
 ```
 
 校验结果见：
